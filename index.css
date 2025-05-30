@@ -1,0 +1,76 @@
+#parent{
+    background-color : "green";
+}
+.layout{
+    width: 100%;
+    height: 100vh;
+}
+.heading{
+color: rgb(110, 42, 165);
+}
+.header-container{
+    display: flex;
+    /* height: 200px; */
+    width: 100%;
+    margin: 0 auto;
+    border: '1px solid orange';
+    background-color: aqua;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width:'100px';
+    height: 100px;
+    border-radius: 50%;
+}
+.nav-container>ul{
+    display: flex;
+    gap: 20px;
+    margin-right: 20px;
+}
+.nav-container > ul > li{
+  list-style-type: none;
+}
+.body-container{
+
+}
+.rest-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+   justify-content: center;
+    margin: 10px 0px;
+}
+.restCard{
+    background-color: rgb(195, 228, 228);
+    width:200px;
+    padding: 1%;
+    height: 300px;
+  
+}
+.restCard h3 {
+    word-wrap: break-word;   
+    overflow-wrap: break-word;
+  }
+.rest-img{
+    width: 100%;
+    height: 40%;
+}
+.filter{
+
+}
+.filter-btn{
+
+}
+.shimar-cardConatiner{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+}
+.shimmar-card{
+    width:200px;
+    padding: 1%;
+    height: 300px;
+   
+    background-color: rgb(163, 190, 213);
+}
